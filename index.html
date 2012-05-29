@@ -33,48 +33,50 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+		<aside style="float:right;">
+			<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'profile',
+				  rpp: 4,
+				  interval: 30000,
+				  width: 250,
+				  height: 300,
+				  theme: {
+					shell: {
+					  background: '#222222',
+					  color: '#ffffff'
+					},
+					tweets: {
+					  background: '#f2f2f2',
+					  color: '#000000',
+					  links: '#43aeff'
+					}
+				  },
+				  features: {
+					scrollbar: false,
+					loop: false,
+					live: false,
+					behavior: 'all'
+				  }
+				}).render().setUser('MuRSPS').start();
+			</script>
+		</aside>
       <section id="main_content" class="inner">
         <h2>Goals</h2>
 
-<p>Provide a modular, extensible and performance conscious platform.</p>
+		<p>Provide a modular, extensible and performance conscious platform.</p>
 
-<p>Completely replicate F2P.</p>
+		<p>Completely replicate F2P.</p>
 
-<h2>Big Ideas</h2>
+		<h2>Big Ideas</h2>
 
-<p>μ heavily uses dependency injection (DI) and aspect-oriented programming (AOP) to achieve its primary goal.</p>
+		<p>μ heavily uses dependency injection (DI) and aspect-oriented programming (AOP) to achieve its primary goal.</p>
 
-<p>To achieve its secondary goal, it has a DSL that is easily understood by people with little to no programming experience.  The primary language for this is Scala, but remains fully compatible with Java (in the sense that writing plugins in Java doesn't suck or look ugly).</p><script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 250,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#222222',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#f2f2f2',
-      color: '#000000',
-      links: '#43aeff'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    behavior: 'all'
-  }
-}).render().setUser('MuRSPS').start();
-</script>
+		<p>To achieve its secondary goal, it has a DSL that is easily understood by people with little to no programming experience.  The primary language for this is Scala, but remains fully compatible with Java (in the sense that writing plugins in Java doesn't suck or look ugly).</p>
       </section>
-    </div>
 
+    </div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
