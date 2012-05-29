@@ -366,15 +366,28 @@ Full-Width Styles
   border-bottom: 1px solid #111;
 }
 
+#columns {
+  margin: 40px auto;
+  padding: 0 1px;
+  display:block;
+  height: 400px;
+  width: 950px;
+}
+
 #main_content {
-  padding-top: 40px;
+  width: 640px;
+  float: left;
+}
+
+#main_sidebar {
+  padding-top: 50px;
+  width: 250px;
+  float: right;
 }
 
 #footer_wrap {
   background: #212121;
 }
-
-
 
 /*******************************************************************************
 Small Device Styles
