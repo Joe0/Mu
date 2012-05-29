@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
+
+	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+	
     <title>Mu</title>
   </head>
 
@@ -41,7 +44,34 @@
 
 <p>μ heavily uses dependency injection (DI) and aspect-oriented programming (AOP) to achieve its primary goal.</p>
 
-<p>To achieve its secondary goal, it has a DSL that is easily understood by people with little to no programming experience.  The primary language for this is Scala, but remains fully compatible with Java (in the sense that writing plugins in Java doesn't suck or look ugly).</p>
+<p>To achieve its secondary goal, it has a DSL that is easily understood by people with little to no programming experience.  The primary language for this is Scala, but remains fully compatible with Java (in the sense that writing plugins in Java doesn't suck or look ugly).</p><script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#222222',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#f2f2f2',
+      color: '#000000',
+      links: '#43aeff'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('MuRSPS').start();
+</script>
       </section>
     </div>
 
