@@ -86,7 +86,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  visibility: hidden;
 }
 
 h4 {
@@ -386,6 +385,14 @@ Full-Width Styles
 
 #footer_wrap {
   background: #212121;
+}
+
+.twtr-widget h3 {
+	visibility: hidden;
+}
+
+.twtr-hd a {
+	padding-left: 10px;
 }
 
 /*******************************************************************************
