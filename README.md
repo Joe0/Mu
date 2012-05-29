@@ -1,5 +1,3 @@
-![µ Logo](http://joe0.github.com/Mu/images/small%20mu.png)
----
 ##Goals##
 Provide a modular, extensible and performance conscious platform.
 
