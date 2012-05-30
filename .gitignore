@@ -1,7 +1,14 @@
+.classpath
+.project
+*.ipr
+*.iws
+*.iml
 *.class
-
-# Package Files #
-*.jar
-!lib/*.jar
-*.war
-*.ear
+bin
+build
+.*
+!.gitignore
+!.gitmodules
+!.gitkeep
+!.gitattributes
+lib
