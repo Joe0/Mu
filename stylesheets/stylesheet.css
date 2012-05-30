@@ -275,6 +275,13 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.inner_footer {
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-right: 290px;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -397,6 +404,11 @@ Full-Width Styles
 
 .twtr-hd a {
 	padding-left: 10px;
+}
+
+.footer_text {
+	font-size: 12px;
+	margin: 0 0 0 0;
 }
 
 /*******************************************************************************
