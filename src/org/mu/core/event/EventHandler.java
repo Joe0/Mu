@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 import javax.inject.Named;
+import javax.inject.Singleton;
 
 import com.google.common.eventbus.EventBus;
 
@@ -14,6 +15,7 @@ import com.google.common.eventbus.EventBus;
  * @author Joe Pritzel
  * 
  */
+@Singleton
 public class EventHandler {
 
 	/**
